@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Environment files
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and medical files
+data/clinical/**/PHI_*.*
+data/clinical/**/dicom/*.dcm
+data/**/*.tmp
+data/**/*.bak
+data/models/*.onnx
+data/models/*.pt
+data/models/misinfo_classifier/
+
+# Logs and reports
+*.log
+logs/
+*.out
+*.err
+
+# Local caches
+*.cache
+.cache/
+*.pkl
+*.joblib
+
+# Docker
+docker-compose.override.yml
+*.pid
+docker/*.local.yml
+
+# Monitoring data
+*.prom
+*.metrics
+
+# Testing
+htmlcov/
+coverage.xml
+.tox/
+.pytest_cache/
+
+# Machine Learning metadata
+mlruns/
+mlartifacts/
+tensorboard/
+*.ckpt
+*.pb
+
+# System
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Static/Build assets
+static/**/*.map
+static/**/*.min.*
+static/**/*.bundle.*
+*.gz
+*.zip
+
+# Model cards output
+docs/MODEL_CARDS/*.md.bak
+
+# Node/JS (if JS used in static/)
+node_modules/
+*.lock
+
+# HIPAA/PII patterns (custom safe patterns)
+**/phi_*.*
+**/*_PHI.*
