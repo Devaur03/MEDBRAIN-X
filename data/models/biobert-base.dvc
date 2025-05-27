@@ -1,0 +1,6 @@
+outs:
+- md5: 9826ad0d9be6dced73f0097ca7af9910.dir
+  size: 433478897
+  nfiles: 5
+  hash: md5
+  path: biobert-base

@@ -21,7 +21,7 @@ spacy==3.7.4
 # FHIR & Medical
 fhir.resources==7.1.0
 rdflib==7.0.0
-dicompyler-core==0.5.8
+dicompyler-core==0.5.6
 
 # Logging & Monitoring
 loguru==0.7.2
@@ -40,4 +40,3 @@ black==24.4.0
 flake8==7.0.0
 isort==5.13.2
 sentence-transformers==2.5.1
-
